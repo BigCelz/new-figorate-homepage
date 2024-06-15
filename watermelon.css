@@ -1,0 +1,209 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+/* hero start */
+.hero{
+    /* margin-top: 200px; */
+    margin-bottom: 60px;
+    width: 100% !important;
+    height: 680px !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    background-image: url('images/Frame 1171275594.png');
+    position: relative;
+}
+
+@media screen and (max-width: 768px) {
+    .hero{
+        background-size: 100% !important;
+        background-repeat: no-repeat !important;
+        background-image: url('images/Frame 1171275607.png');
+    
+    }
+}
+/* hero end */
+
+/* food word start */
+.food-word-content{
+    /* align-items: center; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.watermelon-words{
+    font-size: 20px !important;
+    font-family: Open Sans;
+    color: hsl(0, 1%, 38%);
+}
+
+.watermelon-words-ii{
+    font-size: 18px !important;
+    font-family: Open Sans;
+    color: hsl(0, 1%, 38%);
+}
+/* food word end */
+
+
+/* blog section start */
+.blog{
+    padding-top: 100px;
+    padding-bottom: 80px;
+}
+
+.blog-heading{
+    font-family: Open Sans;
+    font-weight: 600 !important;
+    font-size: 40px;
+}
+
+.picture-row{
+    margin-top: 50px !important;
+}
+
+.blog-word{
+    font-size: 15px;
+    font-family: Open Sans;
+    margin-top: 20px;
+    font-weight: 600 !important;
+    color: hsl(0, 2%, 22%);
+
+}
+
+.watermelon-link{
+    text-decoration: none !important;
+}
+/* blog section end */
+
+
+/* footer section start */
+.footer{
+    background: #4EB867;
+
+}
+.footer-imagee{
+    width: 40px;
+}
+
+.footer-list{
+    list-style-type: none;
+}
+
+.footer-list li{
+    font-family: Space Grotesk;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 25.52px !important;
+    color: #fff;
+    
+}
+
+.first-list-word{
+    font-family: Space Grotesk !important;
+    font-size: 20px !important;
+    font-weight: 700 !important;
+    line-height: 40.4px;
+    text-align: left;
+    display: inline-block !important;   
+}
+
+.company-name-ii{
+    font-family: Plus Jakarta Sans;
+    font-size: 32px !important;
+    font-weight: 600 !important;
+    line-height: 40.32px !important;
+    letter-spacing: 0.01em !important;
+    text-align: left !important;
+    color: white !important;
+    display: flex;
+    align-items: center;  
+}
+
+.company-name-ii img{
+    margin-right: 10px;
+}
+
+.footer-navbrand img{
+    color: white;
+}
+
+.footer-icons i{
+    margin: 0 10px;
+    font-size: 22px;
+}
+
+.footer-figorate{
+    font-family: Plus Jakarta Sans;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 40.32px;
+    letter-spacing: 0.01em;
+    text-align: left;
+    color: linear-gradient(90deg, #000000 0%, #184070 76.5%) !important;      
+}
+
+.listtttt{
+    margin-top: 10px !important;
+}
+
+@media screen and (max-width: 768px) {
+    .footer-figorate{
+        font-family: Plus Jakarta Sans;
+        font-size: 32px;
+        font-weight: 600;
+        line-height: 40.32px;
+        letter-spacing: 0.01em;
+        text-align: left;
+        color: linear-gradient(90deg, #000000 0%, #184070 76.5%) !important;
+        
+    }
+
+    .first-list-word{
+        font-family: Space Grotesk;
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 26.4px;
+        text-align: left;        
+        color: #fff;    
+    }
+
+    .footer-list li{
+        font-family: Space Grotesk;
+        font-size: 20px;
+        font-weight: 300;
+        line-height: 25.52px;
+        text-align: left;        
+        color: #fff; 
+    }
+
+    .footer-icons{
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footer-icons i{
+        margin: 0 20px;
+        font-size: 16px;
+    }
+
+    .company-name-ii{
+        font-family: Plus Jakarta Sans !important;
+        font-size: 22px !important;
+        font-weight: 600 !important;
+        line-height: 30.32px !important;
+        letter-spacing: 0.01em !important;
+        text-align: left !important;
+        color: #184070 !important;
+        display: flex;
+        align-items: center;  
+    }
+}
+/* footer section end */
